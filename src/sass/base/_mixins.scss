@@ -1,0 +1,13 @@
+/*Адаптивне фонове зображення*/
+@mixin backGroundImage2x($path) {
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url($path);
+  }
+}
+
+@mixin backGroundImage1x($path) {
+  background-image: url($path);
+}
