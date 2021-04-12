@@ -30,7 +30,7 @@ img {
 .page-header,
 .page-footer,
 .section {
-  margin: 0 auto;
+  margin: 0 auto -1px;
   padding-left: 8px;
   padding-right: 8px;
   min-width: 375px;
@@ -50,6 +50,7 @@ img {
     width: 1440px;
   }
 
+  border: none;
   background-color: var(--third-bg-color);
 }
 
@@ -76,10 +77,10 @@ img {
 }
 
 .container {
-  padding: 0 20px;
+  padding: 40px 20px;
 
   @media screen and (min-width: 768px) {
-    padding: 0 56px;
+    padding: 80px 56px;
   }
 
   background-color: var(--main-bg-color);
