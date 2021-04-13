@@ -5,4 +5,4 @@ $(document).ready(function(){$(".carousel").slick({slidesToShow:1,slidesToScroll
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/slider");
 },{"./sass/main.scss":"clu1","./js/slider":"10wz"}]},{},["Focm"], null)
-//# sourceMappingURL=/instagram-bots-teamtest/src.f75b3027.js.map
+//# sourceMappingURL=/instagram-bots-teamtest/src.8f388b93.js.map
