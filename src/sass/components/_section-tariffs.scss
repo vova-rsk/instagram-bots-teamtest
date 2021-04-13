@@ -123,6 +123,10 @@
   align-items: center;
   padding: 16px;
   background-color: rgba(255, 255, 255, 0.25);
+
+  @media screen and (min-width: 768px) {
+    padding: 24px 20px 24px 24px;
+  }
 }
 
 .section-tariffs__list-services {
@@ -182,5 +186,9 @@
     padding: 16px 59px;
     font-size: 18px;
     line-height: 1.333;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 16px 56px;
   }
 }
