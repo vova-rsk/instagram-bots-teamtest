@@ -9,4 +9,4 @@ var e=document.getElementsByClassName("section-reviews__button"),s=document.getE
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/slider"),require("./js/structured"),require("./js/mobile-menu.js");
 },{"./sass/main.scss":"clu1","./js/slider":"10wz","./js/structured":"w5eS","./js/mobile-menu.js":"sByI"}]},{},["Focm"], null)
-//# sourceMappingURL=/instagram-bots-teamtest/src.7613cb37.js.map
+//# sourceMappingURL=/instagram-bots-teamtest/src.b450a8ce.js.map
