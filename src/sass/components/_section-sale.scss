@@ -81,3 +81,15 @@
     padding-top: 0;
   }
 }
+.section-sale__title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.25;
+}
+.section-sale__image {
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    width: 628px;
+    height: 640px;
+  }
+}
