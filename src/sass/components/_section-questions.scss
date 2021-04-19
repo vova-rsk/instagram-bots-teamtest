@@ -13,22 +13,38 @@
     rgb(249, 206, 224)
   );
 }
+.section-questions .container {
+  width: 100%;
+}
 .section-questions__title {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.25;
   margin-left: 20px;
   margin-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+    line-height: 1.12;
+    margin-left: 32px;
+  }
 }
-.secton-questions__item {
-  // position: relative;
-  background: var(--secondary-bg-color);
-  border-radius: 16px;
+.section-questions__title2 {
   font-weight: 500;
   font-size: 26px;
   line-height: 1.25;
-  &:not(:last-child) {
-    margin-bottom: 16px;
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+    line-height: 1.12;
+  }
+}
+.secton-questions__item {
+  background: var(--secondary-bg-color);
+  border-radius: 16px;
+}
+.secton-questions__item:not(:last-child) {
+  margin-bottom: 16px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 24px;
   }
 }
 .section-questions__question {
@@ -36,18 +52,38 @@
   justify-content: space-between;
   align-items: center;
   padding: 24px 16px;
+  @media screen and (min-width: 768px) {
+    padding: 28px 32px;
+  }
 }
 .section-questions__answer {
   display: none;
 }
+
 .section-questions__button {
   width: 32px;
   height: 32px;
   padding: 0;
   border-radius: 50%;
   border: none;
-  &:focus {
-    outline: none;
+  @media screen and (min-width: 768px) {
+    width: 48px;
+    height: 48px;
+  }
+}
+.section-questions__button:focus {
+  outline: none;
+}
+
+.section-questions__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  @media screen and (min-width: 768px) {
+    width: 48px;
+    height: 48px;
   }
 }
 .section-questions__button .close-icon {
@@ -59,14 +95,18 @@
 .section-questions__button.is-open .close-icon {
   display: block;
   width: 32px;
-  height: 32px;
-  background-color: pink;
+  fill: var(--main-txt-color);
+  @media screen and (min-width: 768px) {
+    width: 48px;
+  }
 }
 .section-questions__button .open-icon {
   display: block;
   width: 32px;
-  height: 32px;
-  background-color: red;
+  fill: var(--main-txt-color);
+  @media screen and (min-width: 768px) {
+    width: 48px;
+  }
 }
 .section-questions__answer.is-open {
   display: block;
@@ -82,8 +122,7 @@
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 24px;
-}
-.section-questions__icon {
-  width: 32px;
-  height: 32px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
 }
