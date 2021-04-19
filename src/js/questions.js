@@ -1,14 +1,19 @@
 (() => {
-    const quesBtnRef = document.querySelector("[quest-button]");
-    const answerRef = document.querySelector("[data-answer]");
+    
+     const allQuesBtnRef = document.querySelectorAll(".section-questions__button");
+     const allAnswerRef = document.querySelectorAll(".section-questions__answer");
 
-    quesBtnRef.addEventListener("click", () => {
+    for (let i = 0; i < allQuesBtnRef.length; i+=1) {
+       
+    allQuesBtnRef[i].addEventListener("click", () => {
         const expanded =
-            quesBtnRef.getAttribute("area-expanded") === "true" || "false";
+            allQuesBtnRef[i].getAttribute("area-expanded") === "true" || "false";
         
-        quesBtnRef.classList.toggle("is-open");
-        quesBtnRef.getAttribute("area-expanded", !expanded);
+        allQuesBtnRef[i].classList.toggle("is-open");
+        allQuesBtnRef[i].getAttribute("area-expanded", !expanded);
 
-        answerRef.classList.toggle("is-open");
+        allAnswerRef[i].classList.toggle("is-open");
     });
+    }
+  
 })();
