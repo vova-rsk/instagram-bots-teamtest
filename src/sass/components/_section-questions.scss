@@ -57,11 +57,10 @@
 .section-questions__answer {
   display: none;
 }
-
 .section-questions__button {
   width: 32px;
   height: 32px;
-  padding: 0;
+  padding: 2px;
   border-radius: 50%;
   border: none;
   @media screen and (min-width: 768px) {
@@ -72,16 +71,16 @@
 .section-questions__button:focus {
   outline: none;
 }
-
 .section-questions__icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  width: 20px;
+  height: 20px;
+  stroke: var(--main-txt-color);
   @media screen and (min-width: 768px) {
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
   }
 }
 .section-questions__button .close-icon {
@@ -92,18 +91,18 @@
 }
 .section-questions__button.is-open .close-icon {
   display: block;
-  width: 32px;
-  fill: var(--main-txt-color);
+  width: 20px;
+  height: 20px;
   @media screen and (min-width: 768px) {
-    width: 48px;
+    width: 40px;
+    height: 20px;
   }
 }
 .section-questions__button .open-icon {
   display: block;
-  width: 32px;
-  fill: var(--main-txt-color);
+  width: 20px;
   @media screen and (min-width: 768px) {
-    width: 48px;
+    width: 40px;
   }
 }
 .section-questions__answer.is-open {
